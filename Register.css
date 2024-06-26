@@ -1,0 +1,254 @@
+
+.body{
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(230, 231, 239);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .login-container {
+    background: #050505;
+    opacity: 0.89;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 30vw;
+    height: auto;
+  }
+  .login-header {
+  
+    color: #fff;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+  }
+  
+  .login-header h2 {
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  h4{
+    color: rgb(137, 255, 98);
+    margin-top: 15px;
+  }
+  .login-form {
+    padding: 3vh 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    color: #050505;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: #050505;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .or{
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .continue-button {
+    background: #34a636;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    align-self: center;
+    transition: background 0.3s ease;
+    width: 22vw;
+  
+  }
+  .telegram , .google{
+    color: #fff;
+    background-color: #202020;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: background 0.3s ease;
+    width: 22vw;
+  }
+  p{
+    color: white;
+    margin-top: 0px;
+  }
+  h6{
+    margin-top: 15px;
+    color: white;
+  }
+  span{
+    color: #34a636;
+  }
+  .continue-button:hover {
+    background: #5cda6c;
+  }
+  .telegram:hover , .google:hover{
+    background: #696969;
+  }
+  a:hover{
+    color: #6c6c6c;
+  }
+  .forgot-password_and_sign_up {
+    margin-top: 25px;
+    width: 22vw;
+    display: flex;
+    text-decoration:none;
+    color: #e43030;
+    justify-content:space-around
+  }
+  .forgot-password{
+    color: #34a636;
+  }
+  .forgot-password:hover{
+    color: #46cb4d;
+  }
+  #username , #password{
+    width: 20vw;
+  }
+  .dateofbirth{
+    color: rgb(33, 33, 33);
+  }
+.dateofbirth input{
+    color: white;
+    background-color: #393939;
+    width: 20vw;
+  }
+  @media only screen and (max-width: 1000px){
+    .login-container {
+        width: 35vw;
+    }
+    .continue-button {
+        width: 26vw;
+    }
+    .telegram , .google{
+        width: 26vw;
+        font-size: 15px;
+    }
+    .forgot-password_and_sign_up {
+        width: 28vw;
+    }
+    .login-form {
+        padding: 3vh 5vw;
+    }
+    #username , #password, #birthday{
+        width: 25vw;
+    }
+  }
+  @media only screen and (max-width: 750px){
+    .login-container {
+        width: 45vw;
+    }
+    .continue-button {
+        width: 35vw;
+    }
+    .telegram , .google{
+        width: 35vw;
+        font-size: 14px;
+    }
+    .forgot-password_and_sign_up {
+        width: 36vw;
+    }
+    .login-form {
+        padding: 3vh 5vw;
+    }
+    #username , #password, #birthday{
+        width: 35vw;
+    }
+    .login-header h2 {
+        font-size: 32px;
+    }
+  }
+  @media only screen and (max-width: 600px){
+    .login-container {
+        width: 55vw;
+    }
+    .continue-button {
+        width: 45vw;
+    }
+    .telegram , .google{
+        width: 45vw;
+        font-size: 13px;
+    }
+    .forgot-password_and_sign_up {
+        width: 46vw;
+    }
+    .login-form {
+        padding: 3vh 5vw;
+    }
+    #username , #password, #birthday{
+        width: 45vw;
+    }
+    .login-header h2 {
+        font-size: 30px;
+    }
+  }
+  @media only screen and (max-width: 450px){
+    .login-container {
+        width: 70vw;
+    }
+    .continue-button {
+        width: 55vw;
+    }
+    .telegram , .google{
+        width: 55vw;
+        font-size: 13px;
+    }
+    .forgot-password_and_sign_up {
+        width: 56vw;
+    }
+    .login-form {
+        padding: 3vh 7vw;
+    }
+    #username , #password, #birthday{
+        width: 55vw;
+    }
+    .login-header h2 {
+        font-size: 30px;
+    }
+  }
+  
